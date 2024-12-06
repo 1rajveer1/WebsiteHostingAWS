@@ -1,5 +1,5 @@
-variable "instance_name" {
-  description = "Value of the Name tag for the EC2 instnace"
-  type = string
-  default = "ExampleAppServerInstance"
+variable "my-bucket-name" {
+  description = "my bucket name"
+  type        = string
+  default     = "website-bucket-456456"
 }
